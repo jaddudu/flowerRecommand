@@ -1,0 +1,59 @@
+@font-face {
+	font-family: "nanum";
+	src : url("../fonts/NANUMMYEONGJO-YETHANGUL.TTF");
+}
+
+.container{
+    width: 1300vw;
+    transition-delay: 0.5s;
+}
+.outer{
+    width:100vw;
+    float: left;
+}
+
+button {
+    margin-bottom: 25px;
+    background-color: white;
+    color: black;
+    font-size: 23px;
+    border-style: hidden;
+    width: 462px;
+    height: 72px;
+}
+.question {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#question{
+    position: relative;
+    top: 20%;
+    left: 5%;
+    /* �Ʒ��������ʹ� ũ�� ����, color�� ���� ������ */
+    width: 500px;
+    height: 150px;
+    color: #f6f6f6;
+}
+
+.answer {
+    position: relative;
+    top: 25%;
+}
+
+.inner{
+    /* ������ ����, ũ�� ���� ��ġ ���� */
+        /* height: 100%; */
+        background-color: #874034;
+        height: 550px;
+        width: 550px;
+        margin-left: 790px;
+        margin-top: 240px; 
+        text-align: center;
+        border-radius: 10%;
+}
+#fbti{
+	background-color: #874034;
+	color: #874034;
+}
