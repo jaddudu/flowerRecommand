@@ -28,10 +28,6 @@ button,#submit {
     padding-left: 25px;
     padding-right: 25px;
 }
-.inner{
- margin-left: 790px;
- margin-top: 240px;
-}
 .btn1, .btn2 {
 	border-radius: 15px 15px 15px 15px;
 }
