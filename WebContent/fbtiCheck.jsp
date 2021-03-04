@@ -63,7 +63,7 @@ td{
 				<tr>
 					<td class="num"><%=i+1 %></td>
 					<td class="type"><%=mdto.get(i).getMbti_result() %></td>
-					<td><img src="img/´©³¢/<%=mdto.get(i).getImg() %>"></td>
+					<td><img src="img/nukki/<%=mdto.get(i).getImg() %>.png"></td>
 					<td><%=mdto.get(i).getDate() %></td>
 				</tr>
 				<%} %>

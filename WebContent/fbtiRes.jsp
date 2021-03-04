@@ -164,7 +164,9 @@ position: absolute;
 					</div>
 					
 					<div class = "pic">
-					<img src = "img/´©³¢/<%=bestImg%>" class="friends">
+					
+					<img src = "img/nukki/<%=bestImg%>.png" class="friends">
+					<%System.out.println("bestImg" + bestImg); %>
 					</div>
 					
 					<div class ="name">
@@ -180,7 +182,7 @@ position: absolute;
 					</div>
 					
 					<div class = "pic">
-					<img src="img/´©³¢/<%=fbtiResult[4]%>" class="friends">
+					<img src="img/nukki/<%=fbtiResult[4]%>.png" class="friends">
 					</div>
 					
 					<div class ="name2">
@@ -196,7 +198,7 @@ position: absolute;
 					</div>
 					
 					<div class = "pic">
-					<img src="img/´©³¢/<%=worstImg %>" class="friends">
+					<img src="img/nukki/<%=worstImg %>.png" class="friends">
 					</div>
 					
 					<div class ="name">
